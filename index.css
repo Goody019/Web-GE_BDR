@@ -1,0 +1,487 @@
+@import url('https://fonts.googleapis.com/css2? family= Secular+One & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Secular One', sans-serif;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)),
+        url(img/logo.png); 
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 70vh;
+        display: flex;
+        align-items: center;
+    
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/*para el bendiciones de lgoo desaparezca*/
+.logo {
+    font-size: 24px;
+    color: #75696900;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: #e61414;
+    display: block;
+}
+
+.menu .navbar ul li a:hover{
+    color: #e43232;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor:pointer;
+    display: none;
+}
+
+.header-txt{
+    width: 50%;
+}
+
+.header-txt span {
+    display: block;
+    font-size: 30px;
+    color: #ffffff;
+    margin-bottom: 25px;
+}
+/*el apartado de somos generacion emergente bdr*/
+.header-txt h1 {
+    font-size: 50px;
+    line-height: 60px;
+    color: #faf5f5;
+    margin-bottom: 25px;
+}
+
+.header-txt p {
+    font-size: 16px;
+    color: #e3e3ee;
+    margin-bottom: 45px;
+}
+
+.services {
+    display: flex;
+    margin-top: -117px;
+}
+
+.service-1 {
+    width: 20%;
+    padding: 20px;
+}
+
+.service-2 {
+    width: 20%;
+    padding: 30px 20px;
+    background-color: #FFFFFF;
+}
+
+.service-2 span {
+    font-size: 20px;
+    font-weight: 600;
+    color: #E46132;
+}
+
+.service-2 h3{
+    color: #040404;
+    font-size: 18px;
+}
+
+
+.about {
+    padding: 100px 0;
+    display: flex;
+}
+
+.about-1 {
+    width: 50%;
+}
+
+.about-1 span {
+    font-size: 18px;
+    font-weight: 600;
+    color: #E46132;
+    margin-bottom: 30px;
+    display: block;
+}
+
+.about-1 h2 {
+    font-size: 40px;
+    line-height: 60px;  
+    color: #040404;
+}
+
+
+
+.about-2 {
+    width: 50%;
+    padding-left: 150px;
+    position: relative;
+}
+/*img de tematica*/
+.about-2 img {
+    width: 550px;
+    height: 600px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+/*el cuadro de dialogo en foto*/
+.about-txt {
+    display: inline-block;
+    position: absolute;
+    left: 150px;
+    bottom: 0;
+    padding: 25px;
+    background-color: #FFFFFF;
+}
+
+.txt span {
+    font-size: 14px;
+    display: block;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #E46132;
+}
+
+.txt h3 {
+    font-size: 18px;
+    color: #040404;
+}
+
+.images {
+    display: flex;
+    padding: 100px 0;
+}
+
+.images-1 {
+    width: 50%;
+    position: relative;
+    margin-top: -120px;
+} 
+
+.images-2 {
+    width: 50%;
+    position: relative;
+    padding-left: 150px;
+}
+
+/*img3 mid alabanza*/
+.images-1 img{
+    width: 500px;
+    height: 600px;
+    box-shadow: 190 0 20px rgba(0, 0, 0, 0.2);
+}
+
+/*img4 dinamica*/
+.images-2 img{
+    width: 500px;
+    height: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+
+
+/*este pedazo es el de etiqueta en la img*/
+.images-txt-1 {     
+    display: inline-block;
+    position: absolute;
+    background-color: #FFFFFF;
+    padding: 25px;
+    left: 0;
+    bottom: 535px;
+}
+
+/*este pedazo es el de etiqueta en la img*/
+.images-txt-2 {     
+    display: inline-block;
+    position: absolute;
+    background-color: #FFFFFF;
+    padding: 25px;
+    left: 150;
+    bottom: 0px;
+}
+
+
+
+.news {
+    padding: 100px 0 200px 0;
+    display: flex;
+}
+
+.new-1 {
+    width: 50%;
+    position: relative;
+    margin-top: -150px;
+}
+
+.news-1 img {
+    width: 600px;
+    height: 500px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.new-txt {
+    display: inline-block;
+    position: absolute;
+    background-color: #FFFFFF;
+    padding: 25px;
+    left: 0;
+    bottom: 0;
+}
+
+.news-2 {
+    width: 50%;
+}
+
+.news-2 h2 {
+    font-size: 50px;
+    list-style: 55px;
+    color: #040404;
+    margin-bottom: 25px;
+}
+
+.news-2 p {
+    font-size: 20px;
+    color: #323232;
+    margin-bottom: 20px;
+    
+}
+
+.footer {
+    padding: 50px 0;
+    border-top: 5px solid #B7B7B74A;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-1 {
+    display: flex;
+}
+
+.footer-1 p {
+    font-size: 16px;
+    color: #040404;
+}
+
+.footer-1 a {
+    font-size: 16px;
+    color: #040404;
+    margin-right: 20px;
+}
+
+.footer-1 a:hover {
+    color: #E46132;
+}
+
+.social-links {
+    display: flex;
+}
+
+.social-links a {
+    font-size: 20px;
+    color: #040404;
+    margin-right: 20px;
+}
+
+.social-links a:hover {
+    color: #E46132;
+}
+
+@media(max-width:991px) {
+    .menu {
+        padding: 30px;
+    }
+
+    .menu label {
+        display: initial;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #040404;
+        display: none;
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
+
+    .header {
+        min-height: 0vh;
+    }
+
+    .header-content {
+        padding: 80px 30px 50px 30px;
+    }
+
+    .header-txt {
+        width: 50%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .services {
+        padding: 30px;
+        flex-direction: column;
+        text-align: center;
+        margin: 0;
+    }
+
+    .services-1 {
+        display: none;
+    }
+
+    .services-2{
+        width: 100%;
+    }
+    /*para el esppacioooo entre letras y imagen */
+    .about {
+        padding: 30px;
+        flex-direction: column;
+    }
+ /*esteee para el esppacioooo entre letras y imagen */
+    .about-1 {
+        text-align: center;
+        width: 100%;
+        margin-bottom:  95px;
+    }
+
+    .about-1 h2 {
+        font-size: 25px;
+    }
+
+     /*primera  imagennnn */
+    .about-2 {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .about-2 img {
+        width: 100%;
+    }
+
+    .about-txt {
+        left: 0;
+    }
+
+    /*acomodar img*/
+    .images {
+        padding: 30px;
+        flex-direction: column;
+    }
+
+    .images-1 {
+        width: 100%;
+        margin: 0 0 55px 0;
+    }
+
+    .images-2 {
+        width: 100%;
+        padding-left: 0;
+        margin: 0;
+    }
+
+    .images-txt-1 {
+        bottom: 0;
+    }
+
+    .images-txt-2 {
+        left: 0;
+    }
+ /*acomoda img 2 y 3 */
+ 
+    .news {
+        padding: 30px;
+        flex-direction: column;
+    }
+
+    .news-1 {
+        width: 100%;
+        margin: 0 0 30px 0;
+    }
+
+    .news-1 img {
+        width: 100%;
+    }
+
+    .news-2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .news-2 h2 {
+        font-size: 40px;
+    }
+
+    .footer {
+        padding: 30px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-1{
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .footer-1 a {
+        margin-bottom: 10px;    
+    }
+
+}
