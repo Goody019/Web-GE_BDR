@@ -3,11 +3,16 @@
 	<head>
 	
 		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!--etiqueta para hacerlo adaptable sin hacer zoom ni nada mas-->
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
 		<link rel="stylesheet" href="estilos.css">
     	<link rel="stylesheet" href="index.css">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+		
 
 
 		<!--es el titulo que tiene la pagina en si-->
@@ -15,176 +20,182 @@
 	</head>
 			
 	<body>
-			<header class="header">
-				<!--titulo que aparece al inicio de la pag-->
+		<div class="contenedor"> <!--contenedor grnade-->
+				<header class="header">
+					<!--titulo que aparece al inicio de la pag-->
 
-				<!--este es el pedazo donde puedo arreglar el texto arriba del-->
-				<div class="menu container">
-					<a href="#" class="logo">Bendicion</a>
-					<input type="checkbox" id="menu"/>
-					<label for="menu">
-						<img src="img/logo.png" style="width:500px" alt="Nuestro logo como iglesia " class-icon>
-					</label>
-					<nav class="navbar">
-						<ul>
-							<li></li>
-						</ul>
+					<!--este es el pedazo donde puedo arreglar el texto arriba del-->
+					<div class="menu container">
+						<a href="#" class="logo">Bendicion</a>
+						<input type="checkbox" id="menu"/>
+						<label for="menu">
+							<img src="img/logo.png" style="width:400px" alt="Nuestro logo como iglesia " class-icon>
+						</label>
+						<nav class="navbar">
+							<ul>
+								<li></li>
+							</ul>
 
-					</nav>
-				</div>
-
-
-
-				<div class="header-content container">
-					<div class="header-txt">
-						<span>Bienvenidos</span>
-						<h1>Somos Generacion Emergente Bosques del Rio</h1>
-						<p>
-
-						</p>
-						<!--<img src="img/logo.png" alt="taf">-->
-
-					</div>
-				</div>
-
-			</header>
-
-			<!--<section class="services container">
-
-					<div class="services-1">
-
+						</nav>
 					</div>
 
-					<div class="services-1">
 
+
+					<div class="header-content container">
+						<div class="header-txt">
+							<span>Bienvenidos</span>
+							<h1>Somos Generacion Emergente Bosques del Rio</h1>
+							<p>
+
+							</p>
+							<!--<img src="img/logo.png" alt="taf">-->
+
+						</div>
 					</div>
 
-					<div class="services-2">
-						<span></span>
-						<h3></h3>
+				</header>
 
-					</div>
+				<!--<section class="services container">
 
-					<div class="services-2">
-						<span></span>
-						<h3> </h3>
-					</div>
+						<div class="services-1">
 
-					<div class="services-2">
-						<span></span>
-						<h3></h3>
-					</div>
+						</div>
 
-			</section>-->
+						<div class="services-1">
+
+						</div>
+
+						<div class="services-2">
+							<span></span>
+							<h3></h3>
+
+						</div>
+
+						<div class="services-2">
+							<span></span>
+							<h3> </h3>
+						</div>
+
+						<div class="services-2">
+							<span></span>
+							<h3></h3>
+						</div>
+
+				</section>-->
 
 
 			
-			<section class="about container">
-				<div class="about-1">
-					<span>ATENCION</span>
-                        <h2>¡Ven y conocenos!</h2>
-                        <p>Te damos la bienvenida a nuestra pagina web
-							Somos un grupo de jóvenes con el deseo en nuestros corazones de poder hacer más discípulos para Jesus y ya que estás aquí estamos alegres de que hayas decidido darnos la oportunidad de introducirte a nuestros servicios pero sobre todo que le hayas dado la oportunidad a Jesus de entrar a tu corazón. 
+				<section class="about container">
+					<div class="about-1">
+
+							<section class="main"> <!--section para lo de la letra y ajustarla-->
+								<span>ATENCION</span>
+                        		<h2>¡Ven y conocenos!</h2>
+                        		<p>Te damos la bienvenida a nuestra pagina web
+									Somos un grupo de jóvenes con el deseo en nuestros corazones de poder hacer más discípulos para Jesus y ya que estás aquí estamos alegres de que hayas decidido darnos la oportunidad de introducirte a nuestros servicios pero sobre todo que le hayas dado la oportunidad a Jesus de entrar a tu corazón. 
 							
 							
-							En este sitio podrás encontrar contenido relacionado a nuestros cultos, sus horarios, información extra y nuestras redes sociales.</p>
-  
-                        <h2>Acompáñanos y gozate con nosotros</h2>
-                        <p>Ven y visitanos en la casa de Dios donde podras encontrar una segunda familia que como meta es alabarle a nuestro padre y gozarnos en su presencia.</p>
-                    
+									En este sitio podrás encontrar contenido relacionado a nuestros cultos, sus horarios, información extra y nuestras redes sociales.</p>
+							</section>
 
-				</div>
+							<aside> <!--lo mismo para ajustar su tamano es el aside-->
+        	                	<h2>Acompáñanos y gozate con nosotros</h2>
+            	           	 	<p>Ven y visitanos en la casa de Dios donde podras encontrar una segunda familia que como meta es alabarle a nuestro padre y gozarnos en su presencia.</p>
+							</aside>
 
-				<div class="about-2">
-                   	 <img src="img/IMG7.jpg" alt="imagen de nuestra tematica con mario">
-					<div class="about-txt txt">
-						<h3>Temanicas en nuestros cultos de jovenes</h3>
-                    </div>
-                </div>
+					</div>
 
-			</section>
+					<div class="about-2">
+                   		 <img src="img/IMG7.jpg" alt="imagen de nuestra tematica con mario">
+						<div class="about-txt txt">
+							<h3>Temanicas en nuestros cultos de jovenes</h3>
+                    	</div>
+                	</div>
 
-			<section class="images container">
+				</section>
 
-				<div class="images-1">
-                   <img src="img/IMG2.jpg" alt="Ministerio de alabanza">
-				   <div class="images-txt-1 txt">
+				<section class="images container">
+
+					<div class="images-1">
+                   		<img src="img/IMG2.jpg" alt="Ministerio de alabanza">
+				   		<div class="images-txt-1 txt">
 				  	 	
-				  		 <h3>Ministerio de alabanza</h3>
-               	 	</div>
-				</div>
+				  			 <h3>Ministerio de alabanza</h3>
+               	 		</div>
+					</div>
 
-				<div class="images-2">
-					<img src="img/IMG5.jpg" alt="Ministerio de alabanza">
-					<div class="images-txt-2 txt">
+					<div class="images-2">
+						<img src="img/IMG5.jpg" alt="Ministerio de alabanza">
+						<div class="images-txt-2 txt">
 							
 							<h3>Parte de nuestras dinamicas</h3>
 						 </div>
-				 </div>
+				 	</div>
 
 				 
 
 
-			</section>
+				</section>
 
-			<section class="news container">
+				<section class="news container">
 
-				<div class="news-1">
-					<img src="img/IMG4.jpg" alt="Jovenes en el culto de los sabados"> 
-					<div class="news-txt txt">
-						<h3>Reuniones de los sabados</h3>
+					<div class="news-1">
+						<img src="img/IMG4.jpg" alt="Jovenes en el culto de los sabados"> 
+						<div class="news-txt txt">
+							<h3>Reuniones de los sabados</h3>
+
+						</div>
+					</div>
+
+					<div class="news-2">
+						<h2>Horarios de cultos</h2>
+			
+						<p>
+							Sabados: Culto juvenil 4:00 pm
+						</p>
+						<p>
+							Domingo: De 8:00 am y de 10:00 am 
+						</p>
 
 					</div>
-				</div>
 
-				<div class="news-2">
-					<h2>Horarios de los cultos</h2>
-					
-					<p>
-						Sabados: Culto juvenil 4:00 pm
-					</p>
-					<p>
-						Domingo: Culto General 8:00 am - 9:50 am y de 10:00 am - 12 pm
-					</p>
-
-				</div>
-
-			</section>
+				</section>
 
 			
 			<!--pie de pagina-->
-		<footer class="footer">
+			<footer class="footer">
 
-			<div class="footer-content container">
+				<div class="footer-content container">
 
-				<div class="footer-1">
-					<p>Iglesia de Dios Bosques del Rio</p>
+					<div class="footer-1">
+						<p>Iglesia de Dios Bosques del Rio</p>
 
-				</div>
+					</div>
+ 
+					<div class="footer-1">
+					<a href="https://chat.whatsapp.com/F8im3bgObIEDVbzQl8odDh">Contacto para transporte</a>
 
-				<div class="footer-1">
-			<a href="https://chat.whatsapp.com/F8im3bgObIEDVbzQl8odDh">Contacto para transporte</a>
+					</div>
 
-				</div>
-
-				<div class="social-link">
-					<a href="https://www.facebook.com/Unrioquenosedetiene?mibextid=ZbWKwL"><i class="fab fa-facebook-f"></i></a>
-					<a href="https://instagram.com/ge_bosquesdelrio?igshid=NTc4MTIwNjQ2YQ=="><i class="fab fa-instagram"></i></a>
+					<a>Has clic en los iconos para conocernos mas</a>
+					<div class="social-link">
+						<a href="https://www.facebook.com/Unrioquenosedetiene?mibextid=ZbWKwL"><i class="fab fa-facebook-f"></i></a>
+						<a href="https://instagram.com/ge_bosquesdelrio?igshid=NTc4MTIwNjQ2YQ=="><i class="fab fa-instagram"></i></a>
 					
 					
-					<p>© 2023 GE BDR. Todos los derechos reservados.</p>
+						<p>© 2023 GE BDR. Todos los derechos reservados.</p>
+					</div>
 				</div>
-			</div>
-		</footer>
+			</footer>
 
-		<head>
-			<style>
-			  body {
-				background-image: linear-gradient(to right, #59C173, #0083B0);
-			  }
-			</style>
-		  </head>
+			<head>
+				<style>
+			  	body {
+					background-image: linear-gradient(to right, #59C173, #0083B0);
+				  }
+				</style>
+		  	</head>
 		
-
+		</div> <!-- /contenedor grande -->
 	</body>
 </html>
