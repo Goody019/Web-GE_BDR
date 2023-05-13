@@ -262,15 +262,15 @@ aside{
 
 /*img3 mid alabanza*/
 .images-1 img{
-    width: 250px;
-    height: 350px;
+    width: 300px;
+    height: 590px;
     box-shadow: 190 0 20px rgba(0, 0, 0, 0.2);
 }
 
 /*img4 dinamica*/
 .images-2 img{
-    width: 120px;
-    height: 90px;
+    width: 390px;
+    height: 390px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
